@@ -1,11 +1,10 @@
-# semanaomnistack10
-[PT-BR]
-Semana OmniStack 10
+# Semana Omnistack 10 [PT-BR]
+ReactJS / Reacj Native / Node.js
 
-Aula 1
+Dia 1
 Configuração do Ambiente
 
-Aula 2
+Dia 2
 Configuração do MongoDB Atlas
 Implementação do backend com os metodos:
 - Listar
@@ -13,13 +12,12 @@ Implementação do backend com os metodos:
 - Criar
 - Destruir
 
-[EN]
-OmniStack Week 10
+# OmniStack Week 10 [EN]
 
-Class 1
+Day 1
 Environment Setting
 
-Class 2
+Day 2
 MongoDB Atlas Configuration
 Backend implementation with the methods:
 - List
