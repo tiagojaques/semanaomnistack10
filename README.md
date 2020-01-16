@@ -12,6 +12,17 @@ Implementação do backend com os metodos:
 - Criar
 - Destruir
 
+### Dia 3
+Backend  
+- Correções no retorno do json  
+- Alteração do atributo  
+
+Web  
+- Conexão com a API do backend  
+- Criação do component de listagem  
+- Criação do component de controle de formulario  
+- Criação dos styles  
+
 # OmniStack Week 10 [EN]
 
 ### Day 1
@@ -24,4 +35,14 @@ Backend implementation with the methods:
 - Update
 - Create
 - Destroy
- 
+
+### Day 3
+Backend
+- json return fixes
+- Api attribute change
+
+Web
+- Backend API connection
+- Creation of listing component
+- Creation of form control component
+- Creation of styles
