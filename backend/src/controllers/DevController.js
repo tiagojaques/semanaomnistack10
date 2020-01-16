@@ -36,8 +36,11 @@ module.exports = {
                 techs: techsArray,
                 location
             })
-        }
-        return response.json({ dev }); 
+
+            return response.json(dev);  
+        } 
+
+        return response.json();
     },
 
     async update(request, response) {
@@ -68,7 +71,7 @@ module.exports = {
         })
         */
 
-        return response.json({ dev }); 
+        return response.json(dev); 
     },
     async destroy(request, response) {
         const { github_username } = request.body;
@@ -76,7 +79,7 @@ module.exports = {
         if (dev){
             await dev.remove();
         }
-        return response.json({ dev }); 
+        return response.json(dev); 
     },
 
 
