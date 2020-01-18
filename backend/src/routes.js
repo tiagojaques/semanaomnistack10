@@ -8,5 +8,6 @@ routes.post('/devs', DevController.store);
 routes.post('/dev', DevController.update);
 routes.post('/DevDes', DevController.destroy);
 routes.get('/search', SearchController.index);
+routes.get('/searchMap', SearchController.searchMap);
 
 module.exports = routes

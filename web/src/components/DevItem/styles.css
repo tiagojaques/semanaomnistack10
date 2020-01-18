@@ -20,6 +20,15 @@ li.dev-item header img {
 
 li.dev-item header .user-info {
     margin-left: 10px;
+    width: 100%;
+}
+
+li.dev-item header .user-action {
+    margin-left: 10px;
+    text-align: right;
+    vertical-align: top;
+    height: 38px;
+    cursor: pointer;
 }
 
 .user-info strong {

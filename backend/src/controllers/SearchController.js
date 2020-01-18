@@ -11,6 +11,7 @@ module.exports = {
 
         const techsArray = parseStringAsArray(techs);
 
+
         const devs = await Dev.find({
             techs: {
                 $in: techsArray,
@@ -24,9 +25,24 @@ module.exports = {
                     $maxDistance: 10000,
                 } 
             }
-        })
-        
+        });
         return response.json({ devs: devs})
-
+    },
+    async searchMap (request, response){
+        //Buscar todos devs num raio de 10km
+        // Filtrar por tecnologias
+        const  { latitude, longitude, techs } = request.query;
+        const devs = await Dev.find({
+            location: {
+                $near: {
+                    $geometry: {
+                        type: 'Point',
+                        coordinates: [longitude, latitude],
+                    },
+                    $maxDistance: 10000,
+                } 
+            }
+        });
+        return response.json({ devs: devs})
     },
 }

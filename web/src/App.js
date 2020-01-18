@@ -16,7 +16,6 @@ import './Main.css'
 function App() {
   const [devs, setDevs] = useState([]);
 
-
   useEffect(() => {
     async function loadDevs() {
       const response = await api.get('/devs');
@@ -31,6 +30,10 @@ function App() {
     setDevs([response.data,...devs]);
   }
 
+  async function handleDesDev(data) {
+    await api.post('/DevDes',data)
+  }
+
   return (
     <div id="app">
       <aside>
@@ -40,7 +43,7 @@ function App() {
       <main>
         <ul>
           {devs.map(dev => (
-            <DevItem key={dev._id} dev={dev} />
+            <DevItem delete={handleDesDev} key={dev._id} dev={dev} />
           ))}
         </ul>
       </main>
