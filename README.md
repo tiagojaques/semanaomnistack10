@@ -23,6 +23,18 @@ Web
 - Criação do component de controle de formulario  
 - Criação dos styles  
 
+### Dia 4
+Mobile
+- Criação de rotas
+- Utilização do Expo Location, Callout
+- Webview
+
+### Dia 5
+WebSocket
+- Criação do websocket no backend
+- Atualização do frontend e mobile 
+- Atualização do mapa para receber as mensagens do socket.
+
 # OmniStack Week 10 [EN]
 
 ### Day 1
@@ -46,3 +58,15 @@ Web
 - Creation of listing component
 - Creation of form control component
 - Creation of styles
+
+### Day 4
+Mobile  
+- Route creation  
+- Use of Expo Location, Callout  
+- Webview  
+
+### Day 5
+WebSocket  
+- Websocket creation on the backend  
+- Frontend and mobile update  
+- Map update to receive socket messages  
